@@ -1,0 +1,60 @@
+.stepper-container {
+    
+    display: flex;
+    justify-content: center;
+    margin: 200px ;
+  }
+  
+  .stepper-step {
+    margin: 150px 10px;
+    color: #ccc;
+  }
+  
+  .stepper-step.active {
+    color: #47da5b;
+  }
+  
+  .stepper-step.complete{
+    background-color: #c57777;
+  }
+  .stepper-bar {
+    height: 3px;
+    background-color: #8a7171;
+    margin: 15px 5px;
+  }
+  
+  .stepper-bar.active {
+    background-color: #a8c7eb;
+  }
+
+  
+  button {
+    margin-top: 1cm;
+    margin-left:20% ;
+    background-color: #e02323;
+    color: #e4e4e4;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ee233e;
+  }
+
+  Form{
+   margin-left: 320px;
+    text-align: center; 
+    padding: 1cm;
+    text-decoration: wavy;
+    height: 200px;
+    width: 700px;;
+  }
+.allsteps{
+    margin-left:17% ;
+    margin-top: 5%;
+    width: 900px;
+    height: 150px;
+}
+ 
